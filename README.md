@@ -1,10 +1,11 @@
 # 122B
 
-A website that weighs 122 bytes. It's has minimal styling, i.e. black background and white text only to show that there is some amount styling. Vertically and horizontally centered because that remains one of the biggest hassles for devs to work out with css.
+A website that weighs 122 bytes.
+Styled just enough to prove it's styled, i.e. black background and white text, centered vertically and horizontally because centering in CSS is a cross we all bear.
 
 ## Description
 
-This is how I did it:
+How I did it:
 * skipped the `<html>`, `<head>` and `<body>` tags
 * used the css wildcard `*` for styling to save chars
 * used the shorthand 3-digit HEX value for background and font and ommitted the `#` for white as it's not needed
@@ -15,6 +16,6 @@ This is how I did it:
 * omitted the closing `</style>` tag, most browsers will close this automatically
 
 24 bytes are owed to the text on the screen that reads "this page weighs 122 bytes". 
-98 bytes or the HTML (I use this term lightly) and CSS.
+98 bytes is the HTML (I use this term lightly) and CSS.
 
-In UTF-8 encoding, ASCII characters each take up 1 byte, which makes the counting straightforward in this case. This markdown files weighs 1257 bytes (just over a kilobyte).
+In UTF-8 encoding, ASCII characters each take up 1 byte, which makes the counting straightforward in this case. This markdown file weighs 1186 bytes (just over a kilobyte).
